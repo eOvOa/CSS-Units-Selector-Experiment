@@ -1,0 +1,90 @@
+body {
+	background-color: #ECCF4E;
+	text-align: center;
+	font-family: Sans-serif, Verdana;
+}
+
+/* title */
+h1 {
+	color: ##BB2B32;
+	text-shadow: 2px 2px #BB2B32;
+	font-size: 50px;
+	padding-top:10px;
+}
+
+h2 {
+	margin-top: 25px;
+	margin-bottom: 18px;
+}
+
+.pageContainer > div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flexContainer > div {
+	display: block;
+	background-color: #EBECF0;
+	border-radius: 10px;
+	width: 250px;
+	height: 365px;
+	margin-right: 25px;
+	margin-bottom: 30px;
+}
+
+a:link {
+	color: #565656;
+}
+
+a:visited {
+	color: #BB2B32;
+}
+
+.flexContainer > div > grass {
+	color: #242522;
+	font-size: 15px;
+	background-color: #A5CA62;
+	border-radius: 4px;
+	padding: 8px 15px 8px 15px;
+}
+
+.flexContainer > div > poison {
+	color: #F3ECF6;
+	font-size: 15px;
+	background-color: #B181C4;
+	border-radius: 4px;
+	padding: 8px 15px 8px 15px;
+}
+
+.flexContainer > div > fire {
+	color: #FFFFFF;
+	font-size: 15px;
+	background-color: #ED843E;
+	border-radius: 4px;
+	padding: 8px 15px 8px 15px;
+}
+
+.flexContainer > div > flying {
+	color: #283033;
+	font-size: 15px;
+	background-color: #69C4EB;
+	border-radius: 4px;
+	padding: 8px 15px 8px 15px;
+}
+
+.flexContainer > div > water {
+	color: #E2ECF4;
+	font-size: 15px;
+	background-color: #5990BF;
+	border-radius: 4px;
+	padding: 8px 15px 8px 15px;
+}
+
+.flexContainer > div > bug {
+	color: #DBE4CE;
+	font-size: 15px;
+	background-color: #7C9E4D;
+	border-radius: 4px;
+	padding: 8px 15px 8px 15px;
+}
